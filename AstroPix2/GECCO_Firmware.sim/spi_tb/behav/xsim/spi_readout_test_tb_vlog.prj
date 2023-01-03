@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  -i "../../../../GECCO_Firmware.src" --include "../../../../GECCO_Firmware.src/ip/clk_wiz_0" \
+"../../../../GECCO_Firmware.src/new/spi_readout_new.sv" \
+"../../../../GECCO_Firmware.srcs/spi_tb/new/spi.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
