@@ -1,5 +1,6 @@
-#Archived September 20, 2023
+# Archived September 20, 2023
 Most up-to-date repo = AstroPix/astropix-fw
+
 Original source of this repo at kit-adl/astropix/FW
 
 # Astropix Firmware
